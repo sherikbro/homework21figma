@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    .footer-left{
+        display: flex;
+        gap: 200px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .footer-right{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .fright-top{
+            display: flex;
+            gap: 30px;
+            .ftop-text{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .fright-b{
+            display: flex;
+            justify-content: flex-end;
+            gap: 25px;
+            i{
+                font-size: 50px;
+            }
+        }
+    }
+}
